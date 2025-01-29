@@ -19,7 +19,7 @@ function ProductList({ productos }) {
               fill
               className="group-hover:scale-125 transition-all"
             />
-            <div className="z-10 absolute bottom-0 bg-secondary/70 backdroup-blur left-0 w-full p-2">
+            <div className="z-10 absolute bottom-0 bg-black/20 backdroup-blur left-0 w-full p-2">
             <div className="flex justify-between">
                 <h2 className="font-bold max-w-[180px] truncate">{producto.title}</h2>
                 <p>$ {producto.price}</p>
