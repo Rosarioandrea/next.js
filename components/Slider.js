@@ -9,7 +9,7 @@ const slides = [
     id: 1,
     title: "Rebajas de Verano",
     description: "Hasta un 50% de descuento!",
-    img: "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "https://images.pexels.com/photos/4672229/pexels-photo-4672229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     url: "/",
     bg: "bg-gradient-to-r  ",
   },

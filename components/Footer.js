@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-4">
           <Link href="/">
           <div> </div>
-            <div className="text-2x1 tracking-wide font-bold">coconut.</div>
+            <div className="text-4xl tracking-wide font-bold">coconut.</div>
           </Link>
           <p>Palermo, Buenos Aires, Argentina.</p>
           <span className="font-semibold">coconut@gmail.com</span>
