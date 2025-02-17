@@ -9,7 +9,7 @@ const Header = () => {
             <nav className="flex gap-15 ">
             <Link href="/">Home</Link>
             <Link href="/product"> Productos</Link>
-            <Link href="/nosotros"> Nosotros</Link>
+            <Link href="/admin"> Admin</Link>
             <Link href="/contacto"> Contactanos</Link>
             <Link href="/carrito"> <ShoppingCart/></Link>
             </nav>

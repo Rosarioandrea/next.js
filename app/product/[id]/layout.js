@@ -4,7 +4,7 @@ export default function ProductLayout ({children}) {
     return (
         <div>
             <aside>
-                <h2>Filtros</h2>
+                <h2></h2>
                 <Link href="/product/cat/electro"></Link>
                 <Link href="/product/cat/hogar"></Link>
             </aside>
