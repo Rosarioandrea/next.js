@@ -44,23 +44,20 @@ function AdminPage() {
 
     return (
         <>
-            <PageTitle>Admin Panel</PageTitle>
+            <PageTitle>¡Crea tu nuevo producto!</PageTitle>
             <form noValidate="" action="" className="flex flex-col mx-auto space-y-12" onSubmit={handleSubmit}>
                 <fieldset className="grid grid-cols-4 gap-6">
-                    <div className="space-y-2 col-span-full lg:col-span-1">
-                        <p className="font-medium">Carga de producto</p>
-                        <p className="text-xs"></p>
-                    </div>
-                    <div className="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
+                    
+                    <div className="grid grid-cols-6 gap-4 col-span-full lg:col-span-4">
                         <div className="col-span-full sm:col-span-3">
                             <label htmlFor="name" className="text-sm">Nombre de producto</label>
-                            <input name="name" id="name" type="text" placeholder="Ej.: Monitor de pantalla" className="w-full rounded-md focus:ring focus:ring-opacity-75 text-black focus:dark:ring-violet-600  border-primary/20 border bg-white p-2" onChange={handleChange} />
+                            <input name="name" id="name" type="text" placeholder="Remera rosa" className="w-full rounded-md focus:ring focus:ring-opacity-75 text-black focus:dark:ring-violet-600  border-primary/20 border bg-white p-2" onChange={handleChange} />
                         </div>
                         <div className="col-span-full sm:col-span-3">
                             <label htmlFor="price" className="text-sm">Precio (en pesos)</label>
-                            <input name="price" id="price" type="text" placeholder="Ej.: $100" className="w-full rounded-md focus:ring focus:ring-opacity-75 text-black focus:dark:ring-violet-600  border-primary/20 border bg-white p-2" onChange={handleChange} />
+                            <input name="price" id="price" type="text" placeholder=" $10.000" className="w-full rounded-md focus:ring focus:ring-opacity-75 text-black focus:dark:ring-violet-600  border-primary/20 border bg-white p-2" onChange={handleChange} />
                         </div>
-                        <Button className="col-span-full sm:col-span-3">Crear producto</Button>
+                        <Button className="col-span-full bg-black rounded text-black hover:bg-black">Crear producto</Button>
                     </div>
                 </fieldset>
             </form>

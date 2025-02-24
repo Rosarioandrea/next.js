@@ -37,12 +37,12 @@ function CarritoPage() {
                             </li>
                         ))}
                     </ul>
-                    <Button>
+                    <Button className="p-4 bg-black/90 shadow-md rounded-sm text-white hover:bg-black/20 transition-colors">
                         <Link href="/checkout">Proceder al pago</Link>
                     </Button>
                 </div>
             ) : (
-                <Button>
+                <Button className="p-4 bg-black/90 shadow-md rounded-sm text-white hover:bg-black/20 transition-colors">
                     <Link href="/products">Carrito vacío.</Link>
                 </Button>
             )}
@@ -51,3 +51,4 @@ function CarritoPage() {
 }
 
 export default CarritoPage;
+

@@ -24,11 +24,12 @@ function RootLayout ({children}){
 
 
         <AuthContextProvider>
+        <CartContextProvider>
         <Header/>
         <main className="grow p-4">
         {children}
         </main>
-        <CartContextProvider>
+        
         <Footer/>
         <ToastContainer />
         </CartContextProvider>
