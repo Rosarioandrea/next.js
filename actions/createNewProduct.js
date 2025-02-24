@@ -12,7 +12,7 @@ export const createNewProduct = async (name, price) => {
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify(producto) //"{\"name\":\"Horacio\",\"price\":\"100\"}"
+            body: JSON.stringify(producto) 
         })
 
     } catch (error) {

@@ -49,7 +49,7 @@ function AdminPage() {
                 <fieldset className="grid grid-cols-4 gap-6">
                     <div className="space-y-2 col-span-full lg:col-span-1">
                         <p className="font-medium">Carga de producto</p>
-                        <p className="text-xs">Aca podes cargar tus productos de manera divertida (?</p>
+                        <p className="text-xs"></p>
                     </div>
                     <div className="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
                         <div className="col-span-full sm:col-span-3">

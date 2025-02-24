@@ -5,7 +5,7 @@ import { toast } from "react-toastify"
 function ButtonWithNotification(props) {
 
     const handleClick = () => {
-        toast(props.message || "Soy una notificacion", {
+        toast(props.message || "Notificacion", {
             type: props.type || "success",
         })
 
